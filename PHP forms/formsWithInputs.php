@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>week 8 - forms with many inputs</title>
+    <title>forms with many inputs</title>
   </head>
   <body>
 
@@ -46,9 +46,10 @@
 
       <p>
       <input type="submit" name="userData" value="Submit">
-      <input type="button" name="" value="Escape" onclick="location.href='http://localhost:8888/week%208/formsWithInputs.php'; return false;">
+        <!-- insert the location inside the "onclick" so that the page refreshes to its original source or a different one if need be -->
+      <input type="button" name="" value="Escape" onclick=""; return false;">
       </p>
-
+                                                                            
     </form>
 
     <br>
