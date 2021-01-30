@@ -47,6 +47,7 @@
       <p>
       <input type="submit" name="userData" value="Submit">
         <!-- insert the location inside the "onclick" so that the page refreshes to its original source or a different one if need be -->
+        <!-- the "return false" prevents the form data to be sent to $_POST and either refreshes the page or takes you someplace else -->
       <input type="button" name="" value="Escape" onclick=""; return false;">
       </p>
                                                                             
